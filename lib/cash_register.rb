@@ -16,9 +16,12 @@ def add_item(item, price, amount= 1)
   amount.times do item
     self.items << item
 
-  self.total = self.total - total
 
   end
+end
+
+def void_last_transaction
+   self.total = self.total - total
 end
 
 
