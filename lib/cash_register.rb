@@ -20,7 +20,6 @@ def void_last_transaction
    self.total = self.total - total
 end
 
-
 def apply_discount
   if @discount == 0
     return "There is no discount to apply."
