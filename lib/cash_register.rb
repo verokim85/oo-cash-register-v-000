@@ -24,10 +24,6 @@ def apply_discount
     end
 end
 
-def items
-   add_item(item)
-   add_item.map {|stuff| stuff  }
-
 end
 
 end
