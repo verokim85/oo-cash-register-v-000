@@ -13,8 +13,6 @@ def add_item(item, price, amount= 1)
 
   amount.times do item
     self.items << item
-
-
   end
 end
 
