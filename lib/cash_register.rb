@@ -10,6 +10,7 @@ end
 
 def add_item(item, price, amount= 1)
   self.total = total + price * amount
+  @items << item 
 end
 
 def apply_discount
